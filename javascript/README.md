@@ -3,8 +3,12 @@ The style guide of Dharma Treasure Organization
 
 ## Table of Contents
 
-  1. [Objects](#objects)
-  2. [Comments](#comments)
+  1. [Basic](#basic)
+  2. [Objects](#objects)
+  3. [Comments](#comments)
+
+## Basic
+Follow [Google JavaScript Style Guide](https://google.github.io/styleguide/javascriptguide.xml)
 
 ## Objects
 
