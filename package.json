@@ -1,5 +1,5 @@
 {
-  "name": "default-config",
+  "name": "style-guide",
   "version": "0.0.1",
   "description": "karmapa eslint config",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/karmapa17/default-config.git"
+    "url": "git+https://github.com/karmapa17/style-guide.git"
   },
   "keywords": [
     "karmapa",
@@ -18,9 +18,9 @@
   "author": "kmsheng <kmsh3ng@gmail.com> (https://kmsheng.com)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/karmapa17/default-config/issues"
+    "url": "https://github.com/karmapa17/style-guide/issues"
   },
-  "homepage": "https://github.com/karmapa17/default-config#readme",
+  "homepage": "https://github.com/karmapa17/style-guide#readme",
   "dependencies": {
     "babel-core": "6.11.4",
     "babel-loader": "6.2.4",
