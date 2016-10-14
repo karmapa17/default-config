@@ -7,7 +7,7 @@ The style guide of Dharma Treasure Organization
   2. [Objects](#objects)
   3. [Modules](#modules)
   4. [Functions](#functions)
-  5. [blocks](#blocks)
+  5. [Blocks](#blocks)
 
 ## Basic
 Follow [Google JavaScript Style Guide](https://google.github.io/styleguide/javascriptguide.xml)
