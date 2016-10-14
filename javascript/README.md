@@ -4,13 +4,30 @@ The style guide of Dharma Treasure Organization
 ## Table of Contents
 
   1. [Basic](#basic)
-  2. [Objects](#objects)
-  3. [Modules](#modules)
-  4. [Functions](#functions)
-  5. [Blocks](#blocks)
+  2. [Variables](#variables)
+  3. [Objects](#objects)
+  4. [Modules](#modules)
+  5. [Functions](#functions)
+  6. [Blocks](#blocks)
 
 ## Basic
 Follow [Google JavaScript Style Guide](https://google.github.io/styleguide/javascriptguide.xml)
+
+## Variables
+
+```javascript
+// bad, b and c becomes globals
+var a = b = c = 10;
+
+// good
+// use const for non re-assignment variables
+const obj = {};
+const arr = [];
+
+// use let for re-assignment variables
+let index = 0;
+let isActive = false;
+```
 
 ## Objects
 
