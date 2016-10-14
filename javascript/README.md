@@ -7,6 +7,7 @@ The style guide of Dharma Treasure Organization
   2. [Objects](#objects)
   3. [Modules](#modules)
   4. [Functions](#functions)
+  5. [blocks](#blocks)
 
 ## Basic
 Follow [Google JavaScript Style Guide](https://google.github.io/styleguide/javascriptguide.xml)
@@ -78,4 +79,25 @@ const add = (first, second) => first + second;
 const doIt = (arg) => {
   // lots stuff here
 };
+```
+
+## blocks
+```javascript
+// bad
+if (dreamComesTrue) {
+  doThing1();
+  doThing2();
+} else {
+  doThing3();
+}
+
+// good
+// better readability to wrap else block
+if (dreamComesTrue) {
+  doThing1();
+  doThing2();
+}
+else {
+  doThing3();
+}
 ```
