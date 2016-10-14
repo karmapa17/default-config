@@ -72,4 +72,10 @@ function doSomething() {
 // good
 const add = (first, second) => first + second;
 
+// good
+// always have argument parentheses
+// when a function is not too simple, wrap it whenever needed
+const doIt = (arg) => {
+  // lots stuff here
+};
 ```
