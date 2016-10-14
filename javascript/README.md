@@ -6,6 +6,7 @@ The style guide of Dharma Treasure Organization
   1. [Basic](#basic)
   2. [Objects](#objects)
   3. [Modules](#modules)
+  4. [Functions](#functions)
 
 ## Basic
 Follow [Google JavaScript Style Guide](https://google.github.io/styleguide/javascriptguide.xml)
@@ -14,13 +15,16 @@ Follow [Google JavaScript Style Guide](https://google.github.io/styleguide/javas
 
 ```javascript
 
-// bad, don't do jQuery style spacing for object literals
+// bad
+// don't do jQuery style spacing for object literals
 const obj = { name: 'karmapa' };
 
-// good, when only a property in an object, use one liner
+// good
+// when only a property in an object, use one liner
 const simpleData = {name: 'karmapa'};
 
-// good, when multiple propteries in an object, use multiple lines
+// good
+// when multiple propteries in an object, use multiple lines
 const complexData = {
   name: 'karmapa',
   age: 18,
@@ -31,10 +35,41 @@ const complexData = {
 ## Modules
 
 ```javascript
-// good, same as object literal
+// good
+// same as object literal
 import {Modal, Button, Nav} from 'react-bootstrap';
 
-// good, when a line is about to exceed 120 characters, wrap it
+// good
+// when a line is about to exceed 120 characters, wrap it
 import {Modal, Button, Nav, NavBar, Form, Input, Glyphicons,
   Label, Alert} from 'react-bootstrap';    // notice here's 2 space indent at the second line
+```
+
+## Functions
+
+```javascript
+// bad
+// no php naming style here forever and ever
+function do_something() {
+}
+
+// bad
+// no c style here
+function doSomething()
+{
+}
+
+// bad
+// no space after argument block
+function doSomething () {
+}
+
+// good
+// function name should be named in camelcase
+function doSomething() {
+}
+
+// good
+const add = (first, second) => first + second;
+
 ```
