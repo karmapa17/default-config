@@ -30,7 +30,7 @@ const complexData = {
 ```
 ## Modules
 
-```modules
+```javascript
 // good, same as object literal
 import {Modal, Button, Nav} from 'react-bootstrap';
 
