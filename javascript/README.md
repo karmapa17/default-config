@@ -62,6 +62,10 @@ import {Modal, Button, Nav} from 'react-bootstrap';
 // when a line is about to exceed 120 characters, wrap it
 import {Modal, Button, Nav, NavBar, Form, Input, Glyphicons,
   Label, Alert} from 'react-bootstrap';    // notice here's 2 space indent at the second line
+
+// file import starts with a new line after node module import
+import {hashPassword, validate} from './../helpers';
+import * as home from './../controllers/home';
 ```
 
 ## Functions
