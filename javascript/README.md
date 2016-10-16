@@ -115,7 +115,10 @@ if (dreamComesTrue) {
   doThing1();
   doThing2();
 }
-else {
+else if (anotherDreamComesTrue) {
   doThing3();
+}
+else {
+  doThing4();
 }
 ```
