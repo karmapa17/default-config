@@ -11,7 +11,9 @@ The style guide of Dharma Treasure Organization
   6. [Blocks](#blocks)
 
 ## Basic
-Follow [Google JavaScript Style Guide](https://google.github.io/styleguide/javascriptguide.xml)
+ - Follow [Google JavaScript Style Guide](https://google.github.io/styleguide/javascriptguide.xml)
+ - Always use a linter, [.eslintrc](https://github.com/karmapa17/style-guide/blob/master/.eslintrc) is here
+ - For installing babel, see [.babelrc](https://github.com/karmapa17/style-guide/blob/master/.babelrc) and devDependencies in [package.json](https://github.com/karmapa17/style-guide/blob/master/package.json)
 
 ## Variables
 
