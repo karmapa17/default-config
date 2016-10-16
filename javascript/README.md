@@ -16,7 +16,7 @@ Follow [Google JavaScript Style Guide](https://google.github.io/styleguide/javas
 ## Variables
 
 ```javascript
-// bad, b and c becomes globals
+// bad, b and c become globals
 // should've used let or const instead of var
 var a = b = c = 10;
 
