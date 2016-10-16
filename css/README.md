@@ -13,7 +13,8 @@ The CSS / Sass style guide of Dharma Treasure Organization
 
 ```css
 /* bad */
-a, p, div {
+/* should place one selector at a line and add a space before open brace to enhance readability */
+a, p, div{
  font-size: 20px; 
 }
 
