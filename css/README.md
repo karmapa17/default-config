@@ -21,7 +21,7 @@ a, p, div {
 a,
 p,
 div {
-  // font-size: 20px;
+  font-size: 20px;
 }
 
 /* bad */
