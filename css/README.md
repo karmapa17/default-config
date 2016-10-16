@@ -12,6 +12,15 @@ The CSS / Sass style guide of Dharma Treasure Organization
 ## Selectors
 
 ```css
+
+/* bad */
+/* should have a space after colon */
+/* don't do c code style */
+a
+{
+  font-size:20px;
+}
+
 /* bad */
 /* should place one selector at a line */
 /* should add a space before open brace to enhance readability */
