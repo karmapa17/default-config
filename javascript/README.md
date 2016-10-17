@@ -127,4 +127,9 @@ else if (anotherDreamComesTrue) {
 else {
   doThing4();
 }
+
+// always use yoda condition to prevent silent error
+if (18 === age) {
+  console.log('You\'re an adult.');
+}
 ```
